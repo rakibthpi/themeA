@@ -13,3 +13,8 @@ Tags: theme, theme development, wp theme development, template, aisha, fully the
 
 
 */
+
+h2{
+    color: red;
+    text-transform: uppercase;
+}
