@@ -1,0 +1,44 @@
+/*
+
+Theme Name: RakibHosen
+Theme URI: https://www.rakib.com
+Author: Rakib Hosen
+Author URI: https://www.rakib.me
+Description: This is amar theme development. this is a simple practice theme developmnet.
+			 abar duya koriyen ami valo jeno kisu korte pari 
+Version: 1.0.1
+Tags: aysha, rakib, rohim, korim, faruk, masud
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: aisha
+
+*/
+h1{
+	color: red;
+}
+.header_menu_class {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+.header_menu_class li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 4px 18px;
+}
+/* Sidebar area start  */
+.blog_main_area{
+	display: flex;
+}
+.left_sidebar_area{
+	flex: 0 0 60%;
+}
+.right_sidebar_area{
+	flex: 0 0 40%;
+}
+.left_sidebar_area img{
+	width: 400px;
+	height: auto;
+	object-fit: cover;
+}
