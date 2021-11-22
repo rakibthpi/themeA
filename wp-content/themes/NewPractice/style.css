@@ -37,7 +37,7 @@ h1{
 .right_sidebar_area{
 	flex: 0 0 40%;
 }
-.left_sidebar_area img{
+img{
 	width: 400px;
 	height: auto;
 	object-fit: cover;

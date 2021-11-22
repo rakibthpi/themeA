@@ -9,7 +9,7 @@
 				<?php the_post_thumbnail(); ?>
 				<p><?php the_author(); ?></p>
 				<p><?php the_time( "j F Y - g:i A" ) ?></p>
-				<p><?php comments_popup_link( 'Zero Comment', '1 comment', '% comments', 'comment_korbo_ki_je_kori', 'Disable comment' ) ?></p>
+				<p><?php comments_popup_link( 'Zero Comment', '1 comment', '% comments', 'comment_korbo_ki_je_kori', 'Disable comment' ); ?></p>
 			<?php endwhile; ?>
 		</div>
 		<div class="right_sidebar_area">
